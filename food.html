@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/food.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="main">
+    <div class="navbar">
+    <div class="logo"><h1>Food <span style="color:rgb(244, 152, 87) ;">Card</span></h1></div>
+<div class="contain">
+    <ul>
+    <li>Home</li>
+    <li>Recipe</li>
+    <li>Blog</li>
+    <li>Contact</li>
+    </ul>
+</div>
+<i class="fa fa-align-left fa-4x" style="color: rgb(252,155,2); margin-left: 6%; cursor: pointer;"></i>
+</div> 
+</div>
+<div class="bo">
+    <h1>Это просто кусок мяса между булочками и прочей ерундой, но он делает счастливыми многих.</h1>
+    <input type="submit" form="order_form" value="Order Now" onclick="order();"></input>
+</div>
+</div>
+</div> 
+<div class="card"></div>
+
+
+
+<script type="text/javascript">
+    function order()
+    {
+        var audio = new Audio();
+        audio.src = "Красивый звонок на телефон.mp3";
+        audio.autoplay = true;
+        
+
+        return true;
+    }
+</script> 
+
+</body>
+</html>
